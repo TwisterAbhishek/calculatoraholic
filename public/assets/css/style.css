@@ -1,0 +1,92 @@
+.bg-primary {
+  background-color: rgb(108, 53, 240) !important;
+}
+
+.btn-primary {
+  background-color: rgb(108, 53, 240) !important;
+  border-color: rgb(108, 53, 240) !important;
+}
+
+.btn:hover {
+  opacity: 0.9 !important;
+  transition: 0.3s ease;
+}
+
+.text-primary {
+  color: rgb(108, 53, 240) !important;
+}
+
+input:focus, .form-control:focus {
+  box-shadow: none !important;
+  border-color: rgb(108, 53, 240) !important;
+}
+
+a {
+  text-decoration: none !important;
+  color: inherit !important;
+}
+
+label, span, a {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+h1, h1, h3, h4, h5, h6 {
+  text-transform: capitalize !important;
+  font-weight: 800;
+}
+
+.nav__bar ul {
+  list-style: none !important;
+  display: inline-flex;
+  margin: 10px 0px !important;
+}
+
+.nav__bar ul li {
+  cursor: pointer;
+  margin: 0px 5px;
+  border-radius: 10px;
+}
+
+.nav__bar ul li {
+  padding: 10px 0px;
+  position: relative;
+}
+
+.nav__bar ul li a {
+  display: inline-block;
+  width: 100%;
+  padding: 15px 30px;
+  border-radius: 10px;
+}
+
+.nav__bar ul li a:hover {
+  background: rgba(109, 53, 240, 0.184);
+}
+
+footer .footer_head {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+footer ul {
+  list-style: none;
+  display: inline;
+}
+
+footer ul li {
+  margin: 7px 0px;
+}
+
+footer a:hover {
+  color: rgb(108, 53, 240) !important;
+}
+
+#toolCard:hover {
+  color: rgb(108, 53, 240) !important;
+  box-shadow: 0px 1px 12px 0px rgba(0, 0, 0, 0.14);
+}
+
+h2 {
+  font-size: 1.3rem;
+}/*# sourceMappingURL=style.css.map */
