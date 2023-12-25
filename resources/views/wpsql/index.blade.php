@@ -33,7 +33,7 @@
             </form>
         </div>
         <div class="col-md-12 p-4">
-            <div class="border bg-light p-3 text-primary rounded-3" id="scriptData" style="display: none;">
+            <div class="border bg-light p-3 text-primary rounded-3 user-select-all" id="scriptData" style="display: none;">
                 
             </div>
         </div>

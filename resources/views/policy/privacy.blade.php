@@ -30,7 +30,7 @@
     </section>
     <section>
         <h2>Changes to this Privacy Policy</h2>
-        <p>[Your Company Name] has the discretion to update this privacy policy at any time. We encourage users to frequently check this page for any changes to stay informed about how we are helping to protect the personal information we collect.</p>
+        <p>{{env('APP_NAME')}} has the discretion to update this privacy policy at any time. We encourage users to frequently check this page for any changes to stay informed about how we are helping to protect the personal information we collect.</p>
     </section>
     <section>
         <h2>Contacting Us</h2>

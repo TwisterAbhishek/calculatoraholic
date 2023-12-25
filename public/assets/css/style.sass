@@ -26,14 +26,14 @@ label, span, a
     font-size: 14px
     font-weight: 500
     
-h1, h1, h3, h4, h5, h6
+h1, h2, h3, h4, h5, h6
     text-transform: capitalize !important
-    font-weight: 800
+    font-weight: 800 !important
 
 .nav__bar ul
     list-style: none !important
     display: inline-flex
-    margin: 10px 0px !important
+    // margin: 10px 0px !important
 
 .nav__bar ul li
     cursor: pointer
@@ -41,13 +41,13 @@ h1, h1, h3, h4, h5, h6
     border-radius: 10px
 
 .nav__bar ul li
-    padding: 10px 0px
+    // padding: 10px 0px
     position: relative
 
 .nav__bar ul li a
     display: inline-block
     width: 100%
-    padding: 15px 30px
+    padding: 15px 20px !important
     border-radius: 10px
 
 .nav__bar ul li a:hover
@@ -69,7 +69,18 @@ footer a:hover
 
 #toolCard:hover
     color: $primary !important
-    box-shadow: 0px 1px 12px 0px rgba(0,0,0,0.14)
+    transition: 0.5s ease !important
+    box-shadow: 0px 1px 22px 0px #37373724
 
 h2
-    font-size: 1.3rem
+    font-size: 1.4rem
+
+.primaryanchor:hover
+    color: $primary !important
+
+.showonmobile
+    display: none
+
+@media only screen and (max-width: 992px)
+    .showonmobile
+        display: inline
