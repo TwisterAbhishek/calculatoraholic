@@ -8,15 +8,17 @@ class FrontController extends Controller
 {
     public function home()
     {
-        return view('common.home');
+        $trending = DB::table('urls')
+                    ->where('trending', 1)
+                    ->get();
+        return view('common.home', [
+            'trending' => $trending
+        ]);
     }
 
     public function tools()
     {
-        $q = DB::table('urls')->get();
-        return view('common.tools', [
-            'tools' => $q
-        ]);
+        return view('tools.toolsPage');
     }
 
     public function privacy()

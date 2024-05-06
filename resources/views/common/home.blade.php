@@ -26,38 +26,16 @@
     <div class="container">
         <h2 class="text-center mb-5"><i class="fa-solid fa-fire"></i> &nbsp;Trending T<tag class="text-primary">oo</tag>ls</h2>
         <div class="row m-0 justify-content-center">
-            <div class="col-lg-3 col-md-6 mb-3">
-                <div class="card p-5 text-center border-0" id="toolCard">
-                    <i class="fa-brands fa-wordpress fa-4x"></i>
-                    <div class="text-center mt-4">
-                        <a href="{{route('wptosql')}}" class="stretched-link" target="_blank">SQL Queries For WordPress</a>
+            @foreach ($trending as $item)
+                <div class="col-lg-3 col-md-6 mb-3">
+                    <div class="card p-5 text-center border-0 rounded-4" id="toolCard">
+                        {!! $item->icon !!}
+                        <div class="text-center mt-4">
+                            <a href="{{route($item->url)}}" class="stretched-link">{{$item->title}}</a>
+                        </div>
                     </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 mb-3">
-                <div class="card p-5 text-center border-0" id="toolCard">
-                    <i class="fa-solid fa-wallet fa-4x"></i>
-                    <div class="text-center mt-4">
-                        <a href="{{route('emicalculator')}}" class="stretched-link" target="_blank">EMI Calculator</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 mb-3">
-                <div class="card p-5 text-center border-0" id="toolCard">
-                    <i class="fa-solid fa-percent fa-4x"></i>
-                    <div class="text-center mt-4">
-                        <a href="{{route('cgpatopercentage')}}" class="stretched-link" target="_blank">CGPA To Percentage</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 mb-3">
-                <div class="card p-5 text-center border-0" id="toolCard">
-                    <i class="fa-solid fa-ruler-combined fa-4x"></i>
-                    <div class="text-center mt-4">
-                        <a href="{{route('landunit')}}" class="stretched-link" target="_blank">Land Unit Calculator</a>
-                    </div>
-                </div>
-            </div>
+                </div> 
+            @endforeach
         </div>
     </div>
 </section>
@@ -70,7 +48,7 @@
             </div>
             <div class="px-md-3 mt-lg-0 mt-4">
                 <h3 class="text-dark">Meet the <tag class="text-primary">developer</tag></h3>
-                <p class="text-secondary" style="font-size: 14px;">Hello, I'm Abhishek Arya, a Full-Stack Web Developer with a passion for creating digital experiences. Currently, I serve as a Full-Stack Web Developer, and I lead a team of talented developers, manage web projects, and ensure seamless communication with our valued clients. My journey in the world of web development has been a continuous learning curve. Every project I work on not only sharpens my skills but also adds value to my professional growth. My toolbox includes Laravel, MySQL, PHP, ReactJS, Node, Bootstrap, jQuery, and the fundamentals of HTML, CSS, and JavaScript. </p>
+                <p class="text-secondary" style="font-size: 14px;">Hello, I'm <b>Abhishek Arya</b>, a <b>Full-Stack Web Developer</b> with a passion for creating digital experiences. My journey in the world of web development has been a continuous learning curve. Every project I work on not only sharpens my skills but also adds value to my professional growth. My toolbox includes Laravel, MySQL, PHP, ReactJS, Node, Bootstrap, jQuery, and the fundamentals of HTML, CSS, and JavaScript. </p>
                 <div class="d-flex align-items-center">
                     <div class="ps-3 text-secondary primaryanchor">
                         <a href="https://www.facebook.com/twister.abhishek" target="blank_" data-bs-toggle="tooltip" title="Facebook"><i class="fa-brands fa-facebook fa-xl"></i></a>
@@ -80,6 +58,9 @@
                     </div>
                     <div class="ps-3 text-secondary primaryanchor">
                         <a href="https://www.linkedin.com/in/aryabhishek/" target="blank_" data-bs-toggle="tooltip" title="LinkedIn"><i class="fa-brands fa-linkedin fa-xl"></i></a>
+                    </div>
+                    <div class="ps-3 text-secondary primaryanchor">
+                        <a href="mailto:abhishekskc4@gmail.com" target="blank_" data-bs-toggle="tooltip" title="Mail"><i class="fa-solid fa-envelope fa-xl"></i></a>
                     </div>
                 </div>
             </div>

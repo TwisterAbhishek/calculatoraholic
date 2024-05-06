@@ -8,7 +8,7 @@ class EMICalculatorController extends Controller
 {
     public function index()
     {
-        return view('emi.index');
+        return view('tools.emi.index');
     }
 
     public function calculate(Request $request)

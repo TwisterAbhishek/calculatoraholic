@@ -6,6 +6,8 @@ use App\Http\Controllers\EMICalculatorController;
 use App\Http\Controllers\WordPressSQLController;
 use App\Http\Controllers\MarksUnitController;
 use App\Http\Controllers\LandUnitController;
+use App\Http\Controllers\TypingTestController;
+use App\Http\Controllers\BmiController;
 
 
 Route::prefix('/')->group(function () {
@@ -32,7 +34,11 @@ Route::prefix('/')->group(function () {
 
         Route::get('/land-unit-calculator', [LandUnitController::class, 'landunit'])->name('landunit');
 
+        Route::get('/typing-speed-test', [TypingTestController::class, 'typingtest'])->name('typingtest');
 
+        Route::get('/bmi-calculator', [BmiController::class, 'bmi'])->name('bmi');
+
+        
     });
 
 });

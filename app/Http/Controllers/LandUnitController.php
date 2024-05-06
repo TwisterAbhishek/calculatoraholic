@@ -8,6 +8,6 @@ class LandUnitController extends Controller
 {
     public function landunit()
     {
-        return view('land.unitconverter');
+        return view('tools.land.unitconverter');
     }
 }

@@ -1,9 +1,9 @@
 <footer class="bg-white border-top px-3 pt-5 p-md-5 mt-5">
     <div class="row m-0">
-        <div class="col-md-3 mb-5">
+        <div class="col-lg-3 col-md-6 mb-5">
             <div class="mb-5">
                 <a href="/">
-                    <img src="/assets/logo/calculatorholic-logo.png" alt="Calculatorholic.com" style="height: 60px;">
+                    <img src="/assets/logo/calculatorholic-logo.png" alt="Calculatorholic.com" style="height: 60px; width: 100%; object-fit: contain; object-position: left;">
                 </a>
             </div>
             <div class="d-flex align-items-center">
@@ -15,7 +15,7 @@
                 <div class="pe-2"><a href="mailto:abhishekskc4@gmail.com">abhishekskc4@gmail.com</a></div>
             </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-lg-3 col-md-6">
             <div class="footer_head">Pages</div>
             <ul>
                 <li>
@@ -26,7 +26,7 @@
                 </li>
             </ul>
         </div>
-        <div class="col-md-3">
+        <div class="col-lg-3 col-md-6">
             <div class="footer_head">Most Visited</div>
             <ul>
                 <li>
@@ -43,7 +43,7 @@
                 </li>
             </ul>
         </div>
-        <div class="col-md-3">
+        <div class="col-lg-3 col-md-6">
             <div class="footer_head">Policy</div>
             <ul>
                 <li>

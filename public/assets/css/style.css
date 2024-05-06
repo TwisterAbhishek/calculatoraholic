@@ -81,9 +81,8 @@ footer a:hover {
 }
 
 #toolCard:hover {
-  color: rgb(108, 53, 240) !important;
   transition: 0.5s ease !important;
-  box-shadow: 0px 1px 22px 0px rgba(55, 55, 55, 0.1411764706);
+  background-color: #eef !important;
 }
 
 h2 {
@@ -96,6 +95,20 @@ h2 {
 
 .showonmobile {
   display: none;
+}
+
+#toolCard i {
+  font-size: 3rem;
+}
+
+#pageView h1 {
+  background-color: #f3ec78;
+  background-image: linear-gradient(45deg, dodgerblue, purple, red);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
 }
 
 @media only screen and (max-width: 992px) {

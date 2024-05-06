@@ -8,10 +8,10 @@ class MarksUnitController extends Controller
 {
     public function cgpatopercentage()
     {
-        return view('marksunit.cgpatoper');
+        return view('tools.marksunit.cgpatoper');
     }
     public function percentagetocgpa()
     {
-        return view('marksunit.pertocgpa');
+        return view('tools.marksunit.pertocgpa');
     }
 }
