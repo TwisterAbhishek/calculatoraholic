@@ -12,13 +12,20 @@
 
 @section('body')
 
-<section style="height: 75vh;" class="p-4">
-    <div class="w-100 h-100 d-flex align-items-center justify-content-center flex-column">
-        <h1 style="font-size: 3rem;" class="text-center">We are here for y<i class="fa-regular fa-circle fa-bounce fa-2xs text-primary" style="position: relative; bottom: -5px; padding-right: 4px;"></i>u.</h1>
-        <p class="text-secondary col-md-5 text-center mb-4" style="font-size: 15px;">Bring new trending and helpful programs in your life. With this new year 2024, save your time by using our tools.</p>
-        <a href="{{route('tools')}}">
-            <button class="btn btn-primary px-4 py-3 rounded-pill">Explore Tools <i class="fa-solid fa-caret-right fa-beat-fade"></i></button>
-        </a>
+<section style="min-height: 75vh;" class="p-4">
+    <div class="w-100 h-100 row m-0 align-items-center justify-content-center">
+        <div class="col-lg-6 col-md-12">
+            <div class="d-flex align-items-center justify-content-center flex-column">
+                <h1 style="font-size: 3rem;" class="text-center">We are here for y<i class="fa-regular fa-circle fa-bounce fa-2xs text-primary" style="position: relative; bottom: -5px; padding-right: 4px;"></i>u.</h1>
+                <p class="text-secondary col-md-5 text-center mb-4" style="font-size: 15px;">Bring new trending and helpful programs in your life. With this new year 2024, save your time by using our tools.</p>
+                <a href="{{route('tools')}}">
+                    <button class="btn btn-primary px-4 py-3 rounded-pill">Explore Tools <i class="fa-solid fa-caret-right fa-beat-fade"></i></button>
+                </a>
+            </div>
+        </div>
+        <div class="col-lg-6 col-md-12">
+            <img src="/assets/3d.png" alt="" class="w-100">
+        </div>
     </div>
 </section>
 

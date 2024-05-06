@@ -3,6 +3,7 @@
 @section('head')
     <title>BMI Calculator | {{env('APP_NAME')}}</title>
 @endsection
+@endsection
 
 @section('innersection')
 
